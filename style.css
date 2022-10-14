@@ -1,0 +1,40 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  text-align: center;
+}
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  font-size: 2rem;
+  box-shadow: 0 0 0 3px;
+  line-height: 100px;
+  font-size: 100px;
+  cursor: pointer;
+}
+
+.cellContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 300px;
+  margin: auto;
+}
+
+#restart {
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+  width: 280px;
+  padding: 10px;
+}
+
+#restart:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
